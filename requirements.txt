@@ -1,0 +1,7 @@
+torch>=2.0.0
+torchvision>=0.15.0
+codecarbon>=2.3.0
+requests>=2.31.0
+pyyaml>=6.0
+pandas>=2.0.0
+numpy>=1.24.0

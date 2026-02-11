@@ -1,0 +1,23 @@
+scheduler:
+  enabled: false
+  use_mock_data: true
+  carbon_threshold: 300
+  max_wait_seconds: 60
+  check_interval: 10
+  wait_for_low_carbon: false
+
+tracker:
+  output_dir: ./output
+  project_name: baseline-training
+  measure_power_secs: 15
+
+training:
+  run_name: baseline
+  batch_size: 64
+  gradient_accumulation_steps: 1
+  epochs: 3
+  learning_rate: 0.001
+  model_save_path: model_baseline.pt
+
+output_dir: ./output
+data_dir: ./data

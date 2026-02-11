@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-02-11T03:34:03.246743",
+  "baseline": {
+    "run_name": "baseline",
+    "emissions_kg_co2": 0.0001366777232805028,
+    "batch_size": 64,
+    "accumulation_steps": 1,
+    "effective_batch_size": 64,
+    "final_loss": 0.07306554396688911,
+    "test_loss": 0.03696718213467636,
+    "test_accuracy": 98.83,
+    "max_memory_gb": 0.07405568,
+    "avg_epoch_time": 5.914139827092488,
+    "scheduler_wait_time": 0,
+    "carbon_intensity": null,
+    "device": "cuda"
+  },
+  "optimized": {
+    "run_name": "optimized",
+    "emissions_kg_co2": 0.0003028690621002366,
+    "batch_size": 16,
+    "accumulation_steps": 4,
+    "effective_batch_size": 64,
+    "final_loss": 0.06812944478201485,
+    "test_loss": 0.037795745955247165,
+    "test_accuracy": 98.8,
+    "max_memory_gb": 0.04862976,
+    "avg_epoch_time": 14.384598731994629,
+    "scheduler_wait_time": 0.00010323524475097656,
+    "carbon_intensity": 230,
+    "device": "cuda"
+  },
+  "comparison": {
+    "emissions_reduction_percent": -121.59358147827824,
+    "memory_reduction_gb": 0.025425919999999998,
+    "memory_reduction_percent": 34.33351769911504,
+    "accuracy_difference": -0.030000000000001137,
+    "scheduler_delay_seconds": 0.00010323524475097656,
+    "effective_batch_size_same": true
+  },
+  "summary": {
+    "baseline_completed": true,
+    "optimized_completed": true,
+    "gradient_accumulation_working": true,
+    "carbon_scheduler_working": true,
+    "both_converged": true
+  }
+}
