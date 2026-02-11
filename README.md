@@ -7,7 +7,8 @@
 
 > A comprehensive PyTorch-based training pipeline that optimizes compute scheduling based on electricity carbon intensity, reduces GPU utilization through gradient accumulation, and tracks carbon emissions throughout the training process.
 
-**Built by [NEO](https://heyneo.so/)** - An autonomous AI ML agent that helps developers build sustainable and production-ready ML systems.
+**Built by [NEO](https://heyneo.so/)** - An autonomous AI ML agent that helps developers build sustainable and production-ready AI/ML systems.
+
 
 > 💡 **Want to build your own sustainable ML pipeline like this?** Try NEO's VS Code extension: [Install NEO](https://marketplace.visualstudio.com/items?itemName=NeoResearchInc.heyneo)
 
